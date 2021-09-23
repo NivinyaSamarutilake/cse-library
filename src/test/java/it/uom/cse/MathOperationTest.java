@@ -16,4 +16,8 @@ class MathOperationTest {
     void subtract() {
         assertEquals(MathOperation.subtract(2, 1), 1);
     }
+
+    public static int sumOfIntegers(int n){
+        return ((n + 1) * n)/2;
+    }
 }
